@@ -17,7 +17,7 @@ namespace APLI5
             int Numero = int.Parse(maskedTextBox1.Text);
             int Contador = 0;
 
-            for (int i = 0; i <= Numero; i++)
+            for (int i = 1; i <= Numero; i++)
             {
                 if (Numero % i == 0)
                 {
